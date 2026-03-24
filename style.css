@@ -1,0 +1,7 @@
+@import 'reset.css';
+
+button {
+	border: solid black 1px;
+	margin: 1px;
+	height: fit-content;
+}
