@@ -1,7 +1,61 @@
 @import 'reset.css';
 
-button {
-	border: solid black 1px;
+#add {
+	border: solid #eeeeee 1px;
 	margin: 1px;
 	height: fit-content;
+	color: #eeeeee;
+	padding: 1px;
+}
+
+body {
+	background: linear-gradient(30deg, #111111, #222222);
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+	padding: 5px;
+}
+
+main {
+	flex: 1;
+}
+
+footer {
+	text-align: center;
+}
+
+.container {
+	width: fit-content;
+}
+
+.todo_element {
+	display: flex;
+	border: 3mm ridge rgba(50, 220, 183, 0.562);
+	width: 400px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3px;
+}
+
+.todo_element button {
+	width: 40px;
+	height: 40px;
+	border: solid #559955 2px;
+	color: #eeeeee;
+}
+
+h2 {
+	color: #eeeeee;
+}
+
+h3 {
+	color: #aaaaee;
+}
+
+input {
+	background-color: lightgray;
+}
+
+p {
+	color: #eeeeee;
 }
